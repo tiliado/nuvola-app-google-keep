@@ -1,13 +1,14 @@
-Google Calendar Web App Script
+Google Keep Web App Script
 ==============================
 
-Integration of Google Calendar web app into your linux desktop via
+Integration of Google Keep web app into your linux desktop via
 an experimental Nuvola Apps Alpha mode of
 [Nuvola Player](https://github.com/tiliado/nuvolaplayer).
 
 Features
 --------
 
+ * ???
  * Runs in background when the main window is closed. (This can be disabled in preferences.)
  * Propagates web app alerts (e.g. calendar event notifications) as desktop notifications.
  * Opens external links in your default web browser.
@@ -34,10 +35,11 @@ License
 Files: icon.png src/icon.svg icons/*.png
 
 * Author: [Panomedia](https://www.iconfinder.com/paomedia) 
-* Source: <http://www.iconfinder.com/icons/285665/calendar_icon#size=128>
+* Source: <https://www.iconfinder.com/icons/299111/note_sticky_icon#size=128>
 * License: [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/)
 
 Files: *
 
-* Author: Copyright 2014-2015 Jiři Janoušek <janousek.jiri@gmail.com> 
+* Author: Matthew Gabeler-Lee <fastcat@gmail.com>
+* Based on Google Calendar integration by: Jiři Janoušek <janousek.jiri@gmail.com> 
 * License: [BSD-2-Clause](./LICENSE)
