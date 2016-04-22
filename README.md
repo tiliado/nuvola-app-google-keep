@@ -9,7 +9,7 @@ Features
 --------
 
  * Runs in background when the main window is closed. (This can be disabled in preferences.)
- * ? Propagates web app alerts (e.g. note reminders) as desktop notifications.
+ * Propagates web app alerts (e.g. note reminders) as desktop notifications.
  * Opens external links in your default web browser.
  * Tray icon support.
  
