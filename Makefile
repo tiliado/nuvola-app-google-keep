@@ -21,7 +21,7 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 # Service integration id
-APP_ID = google_calendar
+APP_ID = google_keep
 # Dependencies
 DEPS = rsvg-convert
 # Default installation destination

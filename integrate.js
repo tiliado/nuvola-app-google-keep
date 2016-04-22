@@ -62,7 +62,7 @@ WebApp._onInitWebWorker = function(emitter)
     var alert = window.alert;
     window.alert = function(text)
     {
-        Nuvola.Notifications.showNotification(_("Google Calendar Alert"), text, "appointment-soon", null, false);
+        Nuvola.Notifications.showNotification(_("Google Keep Alert"), text, "keep-reminder", null, false);
         return alert(text);
     };
 }
@@ -98,6 +98,7 @@ WebApp.appendPreferences = function(values, entries)
 WebApp._onNavigationRequest = function(emitter, request)
 {
     // Google Calendar uses target="_blank" for external links :-) 
+    // TODO: is this applicable to Keep?
     request.approved = !request.newWindow;
 }
 

@@ -1,12 +1,12 @@
 {
-	"id": "google_calendar",
-	"name": "Google Calendar",
-	"maintainer_name": "Jiří Janoušek",
-	"maintainer_link": "https://github.com/fenryxo",
+	"id": "google_keep",
+	"name": "Google Keep",
+	"maintainer_name": "Matthew Gabeler-Lee",
+	"maintainer_link": "https://github.com/fastcat",
 	"version_major": 1,
 	"version_minor": 1,
 	"api_major": 3,
 	"api_minor": 0,
 	"categories": "Office;",
-	"home_url": "https://www.google.com/calendar/"
+	"home_url": "https://keep.google.com/"
 }
