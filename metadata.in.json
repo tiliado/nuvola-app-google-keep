@@ -1,20 +1,20 @@
 {
-    "id": "google_keep", 
-    "name": "Google Keep", 
-    "maintainer_name": "Matthew Gabeler-Lee", 
-    "maintainer_link": "https://github.com/fastcat", 
-    "version_major": 1, 
-    "version_minor": 1, 
-    "api_major": 3, 
-    "api_minor": 0, 
-    "categories": "Office;", 
-    "home_url": "https://keep.google.com/", 
-    "license": "BSD-2-Clause", 
-    "build": {
-        "icons": [
-            "src/icon.svg SCALABLE 64 128 256", 
-            "src/icon-xs.svg 16 22 24", 
-            "src/icon-sm.svg 32 48"
-        ]
-    }
+  "id": "google_keep",
+  "name": "Google Keep",
+  "maintainer_name": "Matthew Gabeler-Lee",
+  "maintainer_link": "https://github.com/fastcat",
+  "version_major": 1,
+  "version_minor": 1,
+  "api_major": 4,
+  "api_minor": 12,
+  "categories": "Office;",
+  "home_url": "https://keep.google.com/",
+  "license": "BSD-2-Clause",
+  "build": {
+    "icons": [
+      "src/icon.svg SCALABLE 64 128 256",
+      "src/icon-xs.svg 16 22 24",
+      "src/icon-sm.svg 32 48"
+    ]
+  }
 }

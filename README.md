@@ -1,4 +1,4 @@
-Google Keep Web App Script
+Google Keep • Nuvola Apps Runtime [![CircleCI](https://circleci.com/gh/tiliado/nuvola-app-google-keep/tree/master.svg?style=svg)](https://circleci.com/gh/tiliado/nuvola-app-google-keep/tree/master)
 ==============================
 
 Integration of Google Keep web app into your linux desktop via
