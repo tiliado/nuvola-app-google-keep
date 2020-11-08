@@ -26,13 +26,13 @@
 
 (function (Nuvola) {
 // Translations
-  var _ = Nuvola.Translate.gettext
+  const _ = Nuvola.Translate.gettext
 
-// Constants
-  var RUN_IN_BACKGROUND = 'app.run_in_background'
+  // Constants
+  const RUN_IN_BACKGROUND = 'app.run_in_background'
 
-// Create new WebApp prototype
-  var WebApp = Nuvola.$WebApp()
+  // Create new WebApp prototype
+  const WebApp = Nuvola.$WebApp()
 
   WebApp._onInitAppRunner = function (emitter) {
     Nuvola.launcher.setActions(['quit'])
@@ -42,22 +42,22 @@
     Nuvola.core.connect('PreferencesForm', this)
   }
 
-// Initialization routines
+  // Initialization routines
   WebApp._onInitWebWorker = function (emitter) {
     Nuvola.WebApp._onInitWebWorker.call(this, emitter)
 
-    var state = document.readyState
+    const state = document.readyState
     if (state === 'interactive' || state === 'complete') { this._onPageReady() } else { document.addEventListener('DOMContentLoaded', this._onPageReady.bind(this)) }
 
     // Override default window.alert() to propagate event alerts as desktop notifications
-    var alert = window.alert
+    const alert = window.alert
     window.alert = function (text) {
       Nuvola.Notifications.showNotification(_('Google Keep Alert'), text, 'keep-reminder', null, false)
       return alert(text)
     }
   }
 
-// Page is ready for magic
+  // Page is ready for magic
   WebApp._onPageReady = function () {
     // Nothing to do for now.
   }
@@ -82,4 +82,4 @@
   }
 
   WebApp.start()
-})(this)  // function(Nuvola)
+})(this) // function(Nuvola)
